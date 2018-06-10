@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="vue学习步骤vue基础 学习vue之前，需要扎实的 JavaScript / HTML / CSS 基本功。 需要先了解webpack和es6,要不然，不建议直接使用官方的脚手架vue-cli构建项目，那样会遇到很多不知道的问题，比较麻烦一些。 根据官方文档，不借助任何构建工具，直接在html文件中引入vue.js开始学习,了解vue的基础指令和语法。 vue的生命周期很重要，熟练掌握生命周期的">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-10T00:55:45.621Z">
+<meta property="og:updated_time" content="2018-06-10T00:57:35.171Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hello Vue">
 <meta name="twitter:description" content="vue学习步骤vue基础 学习vue之前，需要扎实的 JavaScript / HTML / CSS 基本功。 需要先了解webpack和es6,要不然，不建议直接使用官方的脚手架vue-cli构建项目，那样会遇到很多不知道的问题，比较麻烦一些。 根据官方文档，不借助任何构建工具，直接在html文件中引入vue.js开始学习,了解vue的基础指令和语法。 vue的生命周期很重要，熟练掌握生命周期的">
@@ -317,9 +317,7 @@
 <li>如果可以，就仿写一些小项目，github上有很多这样的例子可以借鉴一下。</li>
 <li>可以结合一些组件库写demo，这样可以更加了解组件化。GitHub上有一个很火的仿写的饿了么，可以看一下。<h3 id="Vuex"><a href="#Vuex" class="headerlink" title="Vuex"></a>Vuex</h3></li>
 </ul>
-<p>####### 什么是vuex？</p>
-<p>######## Vuex 是一个专为 Vue.js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。简单来说，Vuex是用来管理组件之间通信的一个插件，控制应用的一些全局状态。状态改变了，对应的视图也会改变。vue的组件之间是独立的，父组件和子组件想要实现通信只有通过props，但这仅限于父子组件之间的通信。如果兄弟组件之间想要实现通信呢？或者面对一大堆组件之间的通信，还有一大堆的逻辑代码，怎么实现通信呢？？那为何不把组件之间共享的数据给“拎”出来，在一定的规则下管理这些数据呢？ 这就是Vuex的基本思想了。</p>
-<ul>
+<h6 id="什么是vuex？"><a href="#什么是vuex？" class="headerlink" title="什么是vuex？"></a>什么是vuex？</h6><h6 id="Vuex-是一个专为-Vue-js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。简单来说，Vuex是用来管理组件之间通信的一个插件，控制应用的一些全局状态。状态改变了，对应的视图也会改变。vue的组件之间是独立的，父组件和子组件想要实现通信只有通过props，但这仅限于父子组件之间的通信。如果兄弟组件之间想要实现通信呢？或者面对一大堆组件之间的通信，还有一大堆的逻辑代码，怎么实现通信呢？？那为何不把组件之间共享的数据给“拎”出来，在一定的规则下管理这些数据呢？-这就是Vuex的基本思想了。"><a href="#Vuex-是一个专为-Vue-js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。简单来说，Vuex是用来管理组件之间通信的一个插件，控制应用的一些全局状态。状态改变了，对应的视图也会改变。vue的组件之间是独立的，父组件和子组件想要实现通信只有通过props，但这仅限于父子组件之间的通信。如果兄弟组件之间想要实现通信呢？或者面对一大堆组件之间的通信，还有一大堆的逻辑代码，怎么实现通信呢？？那为何不把组件之间共享的数据给“拎”出来，在一定的规则下管理这些数据呢？-这就是Vuex的基本思想了。" class="headerlink" title="Vuex 是一个专为 Vue.js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。简单来说，Vuex是用来管理组件之间通信的一个插件，控制应用的一些全局状态。状态改变了，对应的视图也会改变。vue的组件之间是独立的，父组件和子组件想要实现通信只有通过props，但这仅限于父子组件之间的通信。如果兄弟组件之间想要实现通信呢？或者面对一大堆组件之间的通信，还有一大堆的逻辑代码，怎么实现通信呢？？那为何不把组件之间共享的数据给“拎”出来，在一定的规则下管理这些数据呢？ 这就是Vuex的基本思想了。"></a>Vuex 是一个专为 Vue.js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。简单来说，Vuex是用来管理组件之间通信的一个插件，控制应用的一些全局状态。状态改变了，对应的视图也会改变。vue的组件之间是独立的，父组件和子组件想要实现通信只有通过props，但这仅限于父子组件之间的通信。如果兄弟组件之间想要实现通信呢？或者面对一大堆组件之间的通信，还有一大堆的逻辑代码，怎么实现通信呢？？那为何不把组件之间共享的数据给“拎”出来，在一定的规则下管理这些数据呢？ 这就是Vuex的基本思想了。</h6><ul>
 <li>es6，这里还是需要会es6。</li>
 <li>比如在学习Action时可以看看ES6新增的Promise和参数解构。</li>
 <li>实践的方法一样是先看别人别人写的代码，比如官方的购物车实例的应用结构。</li>
@@ -472,7 +470,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#vue学习步骤"><span class="nav-number">1.</span> <span class="nav-text">vue学习步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#vue基础"><span class="nav-number">1.0.1.</span> <span class="nav-text">vue基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vue-router"><span class="nav-number">1.0.2.</span> <span class="nav-text">Vue-router</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vuex"><span class="nav-number">1.0.3.</span> <span class="nav-text">Vuex</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#vue学习步骤"><span class="nav-number">1.</span> <span class="nav-text">vue学习步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#vue基础"><span class="nav-number">1.0.1.</span> <span class="nav-text">vue基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vue-router"><span class="nav-number">1.0.2.</span> <span class="nav-text">Vue-router</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vuex"><span class="nav-number">1.0.3.</span> <span class="nav-text">Vuex</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#什么是vuex？"><span class="nav-number">1.0.3.0.0.1.</span> <span class="nav-text">什么是vuex？</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Vuex-是一个专为-Vue-js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。简单来说，Vuex是用来管理组件之间通信的一个插件，控制应用的一些全局状态。状态改变了，对应的视图也会改变。vue的组件之间是独立的，父组件和子组件想要实现通信只有通过props，但这仅限于父子组件之间的通信。如果兄弟组件之间想要实现通信呢？或者面对一大堆组件之间的通信，还有一大堆的逻辑代码，怎么实现通信呢？？那为何不把组件之间共享的数据给“拎”出来，在一定的规则下管理这些数据呢？-这就是Vuex的基本思想了。"><span class="nav-number">1.0.3.0.0.2.</span> <span class="nav-text">Vuex 是一个专为 Vue.js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。简单来说，Vuex是用来管理组件之间通信的一个插件，控制应用的一些全局状态。状态改变了，对应的视图也会改变。vue的组件之间是独立的，父组件和子组件想要实现通信只有通过props，但这仅限于父子组件之间的通信。如果兄弟组件之间想要实现通信呢？或者面对一大堆组件之间的通信，还有一大堆的逻辑代码，怎么实现通信呢？？那为何不把组件之间共享的数据给“拎”出来，在一定的规则下管理这些数据呢？ 这就是Vuex的基本思想了。</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
